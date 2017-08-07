@@ -80,63 +80,77 @@ h5 {
   background-size: cover;
   text-align: center;
 }
-/* line 106, ../sass/main.scss */
-.banner .top-navbar {
-  margin: 0px;
-  padding-top: 15px;
+/* line 108, ../sass/main.scss */
+.banner header {
+  margin: 0 auto;
+  padding-top: 23px;
+  max-width: 1200px;
 }
-/* line 109, ../sass/main.scss */
-.banner .top-navbar h3 {
+/* line 114, ../sass/main.scss */
+.banner header h3 {
   display: inline-block;
-  margin-right: 36.45%;
   color: #ffffff;
+  float: left;
 }
-/* line 115, ../sass/main.scss */
-.banner .top-navbar ul {
+/* line 121, ../sass/main.scss */
+.banner header ul {
   text-transform: uppercase;
-  display: inline-block;
+  display: inline;
+  float: right;
 }
-/* line 118, ../sass/main.scss */
-.banner .top-navbar ul li {
+/* line 126, ../sass/main.scss */
+.banner header ul li {
+  margin-right: 44px;
   display: inline;
 }
-/* line 120, ../sass/main.scss */
-.banner .top-navbar ul li a {
+/* line 129, ../sass/main.scss */
+.banner header ul li:last-child {
+  margin-right: 0px;
+}
+/* line 133, ../sass/main.scss */
+.banner header ul li a {
+  font-size: 14px;
   text-decoration: none;
   color: #ffffff;
 }
-/* line 124, ../sass/main.scss */
-.banner .top-navbar ul li a:hover {
+/* line 138, ../sass/main.scss */
+.banner header ul li a:hover {
   border-bottom: 2px solid rgba(252, 227, 138, 0.8);
 }
-/* line 133, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .banner .content {
   padding-top: 4.16%;
 }
-/* line 143, ../sass/main.scss */
+/* line 157, ../sass/main.scss */
 .banner .content .dash {
   border-bottom: 3px solid #ffffff;
 }
-/* line 148, ../sass/main.scss */
-.banner .content a {
+/* line 161, ../sass/main.scss */
+.banner .content .banner-button {
+  display: inline-block;
+  border: 3px solid #ffffff;
+}
+/* line 164, ../sass/main.scss */
+.banner .content .banner-button a {
+  display: block;
+  margin: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  border: 3px solid #ffffff;
 }
-/* line 160, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .banner .bottom-navbar li {
   text-transform: uppercase;
   display: inline-block;
 }
-/* line 164, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .banner .bottom-navbar li a {
   border-top: 3px solid #ffffff;
   text-decoration: none;
   color: #ffffff;
   display: inline-block;
 }
-/* line 170, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .banner .bottom-navbar li a p {
   color: #ffffff;
   display: inline-block;
@@ -146,24 +160,24 @@ h5 {
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 */
-/* line 186, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .about-us {
   text-align: center;
 }
-/* line 191, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .about-us .description p {
   max-width: 600px;
 }
-/* line 195, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .about-us .description .dash {
   border-bottom: 3px solid rgba(243, 129, 129, 0.8);
 }
-/* line 202, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .about-us .content .photo {
   display: inline-block;
   background: #95e1d3;
 }
-/* line 207, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 .about-us .content .photo img:hover {
   background-image: linear-gradient(to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url("../img/banner-bg.png");
 }
@@ -172,24 +186,24 @@ h5 {
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 */
-/* line 223, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 .facts {
   width: 100%;
   background-color: #95e1d3;
   margin: 0 auto;
 }
-/* line 228, ../sass/main.scss */
+/* line 248, ../sass/main.scss */
 .facts .fact {
   background: #95e1d3;
   display: inline-block;
   min-width: 200px;
 }
-/* line 233, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .facts .fact p {
   display: inline-block;
   color: #ffffff;
 }
-/* line 238, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 .facts .fact h5 {
   display: inline-block;
 }
@@ -202,7 +216,7 @@ h5 {
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 */
-/* line 260, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .feature {
   background: url("../img/images/feature-bg.png") no-repeat;
   background-size: cover;
@@ -212,25 +226,25 @@ h5 {
 /////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////
 */
-/* line 281, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 .quote {
   background: #f8f8f8;
 }
-/* line 290, ../sass/main.scss */
+/* line 310, ../sass/main.scss */
 .quote .quote-text p {
   color: #adadad;
 }
 
-/* line 302, ../sass/main.scss */
+/* line 322, ../sass/main.scss */
 .ourteam .person .photo {
   background: #95e1d3;
 }
-/* line 314, ../sass/main.scss */
+/* line 334, ../sass/main.scss */
 .ourteam .person h5 {
   color: #333333;
 }
 
-/* line 325, ../sass/main.scss */
+/* line 345, ../sass/main.scss */
 .testimonial .avatar {
   height: 200px;
   width: 200px;
@@ -241,36 +255,36 @@ h5 {
   background-position: -20px -20px;
 }
 
-/* line 347, ../sass/main.scss */
+/* line 367, ../sass/main.scss */
 .blog .articles .date {
   background-color: #95e1d3;
 }
-/* line 349, ../sass/main.scss */
+/* line 369, ../sass/main.scss */
 .blog .articles .date p {
   color: #ffffff;
 }
-/* line 354, ../sass/main.scss */
+/* line 374, ../sass/main.scss */
 .blog .articles h5 {
   color: #333333;
 }
 
-/* line 360, ../sass/main.scss */
+/* line 380, ../sass/main.scss */
 .map {
   background: url("../img/images/map.png") no-repeat;
   background-size: contain;
   min-height: 400px;
 }
-/* line 364, ../sass/main.scss */
+/* line 384, ../sass/main.scss */
 .map .container {
   margin: 0 auto;
   text-align: center;
 }
-/* line 368, ../sass/main.scss */
+/* line 388, ../sass/main.scss */
 .map .container h5 {
   color: rgba(243, 129, 129, 0.8);
 }
 
-/* line 381, ../sass/main.scss */
+/* line 401, ../sass/main.scss */
 .footer .container .blogs h5 {
   color: #333333;
 }
